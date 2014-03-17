@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<web-app-deployment nselem="web-app-deployment" class="oracle.jdeveloper.deploy.war.WarProfile" xmlns="http://xmlns.oracle.com/jdeveloper/905/deploy/j2ee-war">
+   <appletArchiveName/>
+   <appletArchives>
+      <archives class="[Ljava.net.URL;"/>
+      <selectionMode>0</selectionMode>
+   </appletArchives>
+   <appletDeployedAsArchive>false</appletDeployedAsArchive>
+   <appletDeployment>false</appletDeployment>
+   <appletFiles>
+      <autoInclude>true</autoInclude>
+      <deploySourceAs>0</deploySourceAs>
+      <files class="[Ljava.net.URL;"/>
+      <selectionFilters>
+         <Item id="0">oracle.jdevimpl.deploy.common.JavaSelectionFilter</Item>
+      </selectionFilters>
+   </appletFiles>
+   <appletLocation/>
+   <archiveOptions>
+      <additionalManifests/>
+      <compressed>false</compressed>
+      <hasManifest>false</hasManifest>
+      <mainClass/>
+   </archiveOptions>
+   <cdaSettings>
+      <additionalArchives/>
+      <afterFilters/>
+      <beforeFilters/>
+      <duringFilters/>
+      <selectedArchives>
+         <archives class="[Ljava.net.URL;"/>
+         <selectionMode>0</selectionMode>
+      </selectedArchives>
+   </cdaSettings>
+   <contextRoot>sds</contextRoot>
+   <defaultConnection class="java.lang.String"/>
+   <deployClientMaxHeapSize/>
+   <earURL path="sds.ear"/>
+   <enterpriseAppName>sds</enterpriseAppName>
+   <javaFiles>
+      <autoInclude>true</autoInclude>
+      <deploySourceAs>0</deploySourceAs>
+      <files class="[Ljava.net.URL;"/>
+      <selectionFilters>
+         <Item idref="0"/>
+      </selectionFilters>
+   </javaFiles>
+   <profileDeps/>
+   <properties/>
+   <warURL path="sds.war"/>
+   <webSelectionRules>
+      <rules>
+         <Item>
+            <pattern>img/meny_old.jpg</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>language_old.jsp</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>leftmenu.jsp</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>top.jsp</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>Copy of documents.jsp</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>Copy (2) of documents.jsp</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>uploadNews.jsp</pattern>
+            <type>0</type>
+         </Item>
+         <Item>
+            <pattern>**/CVS/</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**.contrib</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**.keep</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**.rvi</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**</pattern>
+            <type>0</type>
+         </Item>
+      </rules>
+   </webSelectionRules>
+</web-app-deployment>
