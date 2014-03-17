@@ -1,0 +1,137 @@
+m  table.midTable {
+                  margin-left: 30px;
+  }
+
+  textarea {
+                font-family: Arial;
+                font-size: 9pt;
+                font-style: normal;
+                color: #000000;
+                text-decoration: none;
+                text-align: left;
+  }
+
+  td.top {
+                  background:         #abbf5e; 
+                  text-align:         left;
+  }
+  td.left {
+                  padding:            2px; 
+                  background:         #D8E2E0; 
+                  border:             1px solid #9e9e94; 
+                  vertical-align:     top;
+                  width:              148px;
+                  background-image:   url(/websds/img/meny.jpg);
+                  background-repeat:  no-repeat;
+  }
+  
+  SELECT {
+                font-size: 9pt;
+                font-family: Arial;
+	}
+	.stdwidth{
+		width:	100pt;
+	}
+
+  INPUT { border-bottom: 1px solid black;
+                border-right: 1px solid black;
+                font-size: 9pt;
+                font-family: Arial;
+  }
+  INPUT.rad{ border-style: none;
+  }
+  INPUT.but{height: 20px;
+                width: 85px;
+  }
+
+  SUBMIT.but{height: 20px;
+                width: 85px;
+  }
+
+  td {    font-family:    Arial, Helvetica, sans-serif;
+                font-size:      9pt;
+                color:          #000000;
+	}
+ 	p {    	font-family:    Arial, Helvetica, sans-serif;
+                font-size:      9pt;
+                color:          #000000;
+  }
+	.lgre { background-color: #f7f9f0;
+	}
+	.gre {background-color: #DDDDDD;
+	}
+	.ora {background-color: #FFC010;}
+
+  .blue1 {background-color: #CCCCFF;} 
+  .blue2 {background-color: #99CCFF;}
+  .blue3 {background-color: #6666CC;}
+
+	
+	.border {border: 1px solid black;}
+	
+	.right {text-align: right;}		
+
+	.margleft { margin-left:10px;}
+
+  .ATTENTION{ 
+    color:RED; 
+  	FONT-WEIGHT: bold;	
+  }
+
+  .OK_UPDATE{
+    color: GREEN;
+   	FONT-WEIGHT: bold;
+  }
+
+
+  .menubutton       {font-family: Arial, Helvetica, sans-serif; 
+                    font-size: 9pt; 
+                    color: #000000; 
+                    font-weight: bold;
+                    background-color: #0025A2;
+                    text-align: center;
+                    width: 15%;
+  }
+  .menubuttonhover{font-family: Arial, Helvetica, sans-serif; 
+                    font-size: 9pt; 
+                    color: #000000; 
+                    font-weight: bold;
+                    background-color: #3456C3;
+                    text-align: center;
+                    width: 15%;}
+  
+  .submenubutton    {font-family: Arial, Helvetica, sans-serif; 
+                    font-size: 9pt; 
+                    color: #000000; 
+                    font-weight: bold;
+                    background-color: #8E8EA5;
+                    text-align: center;
+                    width: 15%;
+  }
+  .submenubuttonhover    {font-family: Arial, Helvetica, sans-serif; 
+                    font-size: 9pt; 
+                    color: #000000; 
+                    font-weight: bold;
+                    background-color: #CACACA;
+                    text-align: center;
+                    width: 15%;
+  }
+  
+  .noborder    { border-collapse: collapse;}
+  .center {         text-align:     	  center; }
+  .right { 	        text-align:		      right;  }
+
+
+  .bodytext {  font-family:  verdana, arial, helvetica; font-size: 11px; color: #000000}
+
+  .fieldHeading {  font-family: arial, helvetica;  background-color: #f7f9f0; font-size: 12px; font-weight: bold; color: #000000;}
+  .fieldInput {  font-family: arial, helvetica;  background-color: #f7f9f0; font-size: 12px; color: #000000;}
+  .fieldHeadingW {  font-family: arial, helvetica;  font-size: 12px; font-weight: bold; color: #000000;}
+  .fieldInputW {  font-family: arial, helvetica;  font-size: 12px; color: #000000;}
+  .listFieldXXXX {  font-family: arial, helvetica; font-size: 12px; color: #000066}
+  .listField {  font-family: arial, helvetica;  background-color: #ebf0ee; font-size: 12px; color: #000066;}
+  .pageHeading {  font-family: arial, helvetica; font-size: 16px; font-weight: bold; color: #000000}
+  .heading3 {  font-family: arial, helvetica; font-size: 16px; font-weight: bold; color: #000000}
+  .headingbody {  font-family: verdana, arial, helvetica; font-size: 11px; font-weight: bold; color: #CC3300}
+
+  .leftmenuInfo {  font-family: arial, helvetica;  font-weight: bold; font-size: 12px; color: #000000;}

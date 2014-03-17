@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <description>Empty web.xml file for Web Application</description>
+  <session-config>
+    <session-timeout>35</session-timeout>
+  </session-config>
+  <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>txt</extension>
+    <mime-type>text/plain</mime-type>
+  </mime-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!--appplication variables -->
+  <env-entry>
+      <env-entry-name>MAILADDRESS</env-entry-name>
+    <env-entry-value>sds@volvo.com</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>
+
+  <env-entry>
+      <env-entry-name>APPLICATION_NAME</env-entry-name>
+    <env-entry-value>WEBSDS</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>
+  <env-entry>
+      <env-entry-name>APPLICATION_SHORTNAME</env-entry-name>
+    <env-entry-value>WEBSDS</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>
+  
+  <!--server settings 8988-->
+  <env-entry>
+      <env-entry-name>SERVER_PORT</env-entry-name>
+ <env-entry-value></env-entry-value> 
+<!-- <env-entry-value>8989</env-entry-value> -->
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>
+
+  <!--mail settings-->
+  <env-entry>
+    <env-entry-name>mailserver</env-entry-name>
+    <env-entry-value>mailgot.it.volvo.com</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>  
+
+  <env-entry>
+    <env-entry-name>mailToAddress</env-entry-name>
+    <env-entry-value>sds@volvo.com</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>  
+
+  <resource-ref>
+      <description>DB Connection</description>
+      <res-ref-name>jdbc/websds</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+  </resource-ref>
+
+   
+ 
+
+
+</web-app>
